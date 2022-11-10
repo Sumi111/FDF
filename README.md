@@ -22,6 +22,16 @@ Your project must comply with the following rules:
 - You have to turn in a Makefile which will compile your source files. It must not relink.
 - Global variables are forbidden.
 
-### Rendering
-Your program has to represent the model in isometric projection. The coordinates of the landscape are stored in a .fdf file passed as a parameter to
-your program. (Some maps are provided in test_maps).
+## Rendering
+The program has to represent the model in isometric projection. The coordinates of the landscape are stored in a .fdf file passed as a parameter to
+your program. (Some maps are provided in test_maps).Here is an example:
+
+![map_example](https://github.com/Sumi111/FDF/blob/main/images/MAP_EXAMPLE.png)
+
+Each number represents a point in space:
+- The horizontal position corresponds to its axis.
+- The vertical position corresponds to its ordinate.
+- The value corresponds to its altitude.
+
+Rendered landscape should be similar to:
+
